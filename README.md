@@ -1,4 +1,4 @@
-#Linked List
+# Linked List
 
 A linked list is a pretty simple data structure. This image stolen from
 wikipedia gives you an overview of what they look like:
@@ -14,7 +14,7 @@ without affecting the surrounding nodes.
 There are a couple different kinds of linked lists, several of which I've
 implemented.
 
-##Singly Linked List
+## Singly Linked List
 
 A singly linked list is probably the most simple, and is the variant which
 stores the least information about other nodes. This is sort of a trade-off: we
@@ -129,7 +129,7 @@ the penultimate `node`, whose `cdr` is the sentinel node).
 
 Check out `singlylinked.h` for more!
 
-##Doubly Linked List
+## Doubly Linked List
 
 A doubly linked list is a lot like a singly linked list, just, well,
 doubly linked? Exactly! Anyway, this is what the relevant structs look
